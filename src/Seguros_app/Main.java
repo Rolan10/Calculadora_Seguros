@@ -526,7 +526,7 @@ public class Main extends javax.swing.JFrame {
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
-        f.setTitle("Berto App- 2 personas");
+        f.setTitle("Seguros App- 2 personas");
 
         f.setSize(1620, 900);
         // f.setLocation(getWidth() / 2, getHeight() / 2);

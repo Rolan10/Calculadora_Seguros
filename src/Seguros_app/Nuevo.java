@@ -653,7 +653,7 @@ public class Nuevo extends javax.swing.JPanel {
                 Edad.setText("" + diffrence / 365);
 
             } catch (ParseException ex) {
-                alerta.showMessageDialog(null, "Algo no ha ido bien con la fecha, llamame primo" + ex);
+                alerta.showMessageDialog(null, "Algo no ha ido bien con la fecha" + ex);
 
             }
         }
@@ -689,7 +689,7 @@ public class Nuevo extends javax.swing.JPanel {
                 Edad1.setText("" + diffrence / 365);
 
             } catch (ParseException ex) {
-                alerta.showMessageDialog(null, "Algo no ha ido bien con la fecha, llamame primo" + ex);
+                alerta.showMessageDialog(null, "Algo no ha ido bien con la fecha" + ex);
 
             }
         }
@@ -842,7 +842,7 @@ public class Nuevo extends javax.swing.JPanel {
 
             }
         } catch (Exception ex) {
-            alerta.showMessageDialog(null, "Hemos explotado, llamame primo \n\n Error:" + ex);
+            alerta.showMessageDialog(null, " \n\n Error:" + ex);
         }
         ActualizarTabla(model);
     }//GEN-LAST:event_TablaPropertyChange
